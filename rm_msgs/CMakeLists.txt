@@ -26,6 +26,7 @@ add_message_files(
         GimbalPosState.msg
         LegCmd.msg
         LpData.msg
+        LocalHeatData.msg
         LocalHeatState.msg
         KalmanData.msg
         MovingAverageData.msg
