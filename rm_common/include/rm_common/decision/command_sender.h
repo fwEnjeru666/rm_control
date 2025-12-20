@@ -909,7 +909,7 @@ public:
   }
   void switchCameraRight()
   {
-    msg_.data = msg_.data == camera1_name_ ? camera2_name_ : camera1_name_;
+    msg_.data = camera2_name_;
   }
   void sendCommand(const ros::Time& time) override
   {
